@@ -1,0 +1,377 @@
+:root {
+  --base-bg-color: #e2e2e2;
+  --content-bg-color: #353a42;
+
+  --hr-color: rgb(189, 189, 189);
+  --header-divider-color: #1eb980;
+
+  --site-title-color: #000;
+  --site-subtitle-color: #848182;
+  --site-title-bg: #e2e2e2;
+
+  --trace-section-bg: #e2e2e2;
+  --trace-section-text-color: rgb(90, 90, 90);
+  --trace-section-button-outline-color: #000;
+  --trace-section-button-bg-color: #fff;
+  --trace-section-button-text-color: #000;
+
+  --buttons-section-bg: #e2e2e2;
+  --buttons-section-text-color: #000;
+  --buttons-section-button-outline-color: #000;
+  --buttons-section-button-bg-color: #fff;
+  --buttons-section-button-text-color: #000;
+
+  --edit-topic-button-outline-color: #000;
+  --edit-topic-button-bg-color: #fff;
+  --edit-topic-button-text-color: #000;
+
+  --all-topics-button-outline-color: #000;
+  --all-topics-button-bg-color: #fff;
+  --all-topics-button-text-color: #000;
+
+  --post-title-color: #000;
+  --post-subtitle-color: rgb(90, 90, 90);
+  --post-content-color: #ffffff;
+  --post-bg-color: #fff;
+  --post-border-radius: 5px;
+
+  --button-outline-color: #1eb980;
+  --button-bg-color: #fff;
+  --button-border-radius: 5px;
+
+  --color-one: #1eb980;
+  --color-two: #045d56;
+  --color-three: #ff6859;
+  --color-four: #ffcf44;
+  --color-five: #b15dff;
+  --color-six: #72deff;
+}
+
+.site-title {
+  font-family: "Eczar", serif;
+  color: var(--site-title-color);
+  font-weight: 500;
+  display: inline;
+  font-size: 35;
+  padding-left: 10;
+  text-decoration: none;
+}
+
+.site-subtitle {
+  margin: 5;
+  display: inline;
+  font-style: italic;
+  color: var(--site-subtitle-color);
+}
+
+.title-section {
+  background: var(--site-title-bg);
+  padding-top: 5;
+  height: 55;
+}
+
+.trace-section {
+  background: var(--trace-section-bg);
+  padding: 5;
+  font-style: italic;
+  color: var(--trace-section-text-color);
+}
+
+.buttons-section {
+  background: var(--buttons-section-bg);
+  padding: 5;
+  color: var(--buttons-section-text-color);
+}
+
+.topic-body-section {
+  background: var(--buttons-section-bg);
+  padding: 5;
+  color: var(--buttons-section-text-color);
+}
+
+body {
+  margin: 0;
+  background: var(--base-bg-color);
+  font-family: "Ubuntu", sans-serif;
+}
+
+head {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.page-title {
+  margin: 5;
+  color: var(--post-title-color);
+}
+
+.page-subtitle {
+  margin: 5;
+  display: inline;
+  font-style: italic;
+  color: var(--post-subtitle-color);
+}
+
+.divider {
+  margin: 0;
+  color: var(--hr-color);
+}
+.row {
+  margin: 5;
+}
+.margined {
+  margin: 5;
+}
+.nomargin {
+  margin: 0;
+}
+
+input[type="submit"] {
+  background-color: white;
+  border: 1px solid;
+  width: auto;
+  height: auto;
+  color: black;
+  margin: 5;
+  display: inline-block;
+  font-style: normal;
+  text-decoration: none;
+  padding: 5;
+}
+
+.button {
+  background-color: white;
+  border: 1px solid;
+  border-radius: 5px;
+  width: auto;
+  height: auto;
+  color: black;
+  margin: 5;
+  display: inline-block;
+  text-decoration: none;
+  padding: 5;
+}
+
+.buttons-section-button {
+  background-color: var(--buttons-section-button-bg-color);
+  border: 1px solid var(--buttons-section-button-outline-color);
+  color: var(--buttons-section-button-text-color);
+  border-radius: 5px;
+  width: auto;
+  height: auto;
+  margin: 5;
+  display: inline-block;
+  text-decoration: none;
+  padding: 5;
+}
+
+.edit-topic-button {
+  background-color: var(--edit-topic-button-bg-color);
+  border: 1px solid var(--edit-topic-button-outline-color);
+  color: var(--edit-topic-button-text-color);
+  border-radius: 5px;
+  width: auto;
+  height: auto;
+  margin: 5;
+  display: inline-block;
+  text-decoration: none;
+  padding: 5;
+}
+
+.all-topics-button {
+  background-color: var(--all-topics-button-bg-color);
+  border: 1px solid var(--all-topics-button-outline-color);
+  color: var(--all-topics-button-text-color);
+  border-radius: 5px;
+  width: auto;
+  height: auto;
+  margin: 5;
+  display: inline-block;
+  text-decoration: none;
+  padding: 5;
+}
+
+.trace-section-button {
+  background-color: var(--trace-section-button-bg-color);
+  border: 1px solid var(--trace-section-button-outline-color);
+  color: var(--trace-section-button-text-color);
+  border-radius: 5px;
+  width: auto;
+  height: auto;
+  margin: 5;
+  display: inline-block;
+  text-decoration: none;
+  padding: 5;
+}
+
+.whitebox {
+  background-color: white;
+  border: 1px solid;
+  width: auto;
+  height: auto;
+  color: black;
+  margin: 5;
+  display: inline-block;
+  text-decoration: none;
+  padding: 5;
+}
+
+.heading {
+  border: 1px solid;
+  width: auto;
+  height: auto;
+  color: black;
+  margin: 5;
+  display: inline-block;
+  text-decoration: none;
+  padding: 5;
+}
+
+.list-box {
+  border: 1px solid;
+  overflow: hidden;
+  vertical-align: top;
+  width: auto;
+  height: auto;
+  color: black;
+  margin: 5;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.box-heading {
+  width: 100%;
+  height: auto;
+  color: black;
+  display: inline-block;
+  border-bottom: 1px solid;
+  text-decoration: none;
+  padding: 5;
+}
+h1,
+h2 {
+  margin-top: 10;
+  margin-bottom: 0;
+}
+p {
+  margin: 0;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 2px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+th {
+  background-color: #6760aa;
+  color: white;
+}
+
+tr:nth-child(odd) {
+  background-color: #eeeeee;
+}
+
+.post {
+  font-family: "Ubuntu", sans-serif;
+  background-color: var(--post-bg-color);
+  border: 1px solid;
+  border-radius: var(--post-border-radius);
+  width: auto;
+  height: auto;
+  color: black;
+  margin: 5;
+  display: block;
+  text-decoration: none;
+  padding: 10;
+}
+
+.explain-area div {
+  margin-bottom: 20;
+}
+
+.explain-area p {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.question {
+  background-color: white;
+  border: 1px solid;
+  width: auto;
+  height: auto;
+  color: black;
+  margin: 5;
+  display: inline-block;
+  text-decoration: none;
+  padding: 5;
+  padding-top: 0;
+}
+
+.circle {
+  border-radius: 50%;
+  background-image: -webkit-linear-gradient(90deg, #54b43a 0%, #7cd043 100%);
+  background-image: -moz-linear-gradient(90deg, #54b43a 0%, #7cd043 100%);
+  background-image: -o-linear-gradient(90deg, #54b43a 0%, #7cd043 100%);
+  background-image: linear-gradient(0deg, #54b43a 0%, #7cd043 100%);
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.15);
+}
+.dark-primary-color {
+  background: #fbc02d;
+}
+.default-primary-color {
+  background: #ffeb3b;
+}
+.light-primary-color {
+  background: #fff9c4;
+}
+.accent-color {
+  background: #9e9e9e;
+}
+.primary-text-color {
+  color: #212121;
+}
+.secondary-text-color {
+  color: #757575;
+}
+.background-color {
+  background: #f9f9f9;
+}
+.divider-color {
+  border-color: #bdbdbd;
+}
+
+.padded {
+  padding: 5;
+}
+
+.text-no-decor {
+  text-decoration: none;
+}
+.width-inherit {
+  width: inherit;
+}
+.accent {
+  background: rgb(255, 235, 59);
+}
+.accent-dark {
+  background: rgb(251, 192, 45);
+}
+.text-accent {
+  color: rgb(158, 158, 158);
+}
+.col-50 {
+  width: 20%;
+  margin: 5;
+  padding: 5;
+  float: left;
+}
