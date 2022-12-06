@@ -1,4 +1,7 @@
 <?php
-  include("db-functions.php");
-  $db = new DB_FUNCTIONS();
+// it works with topic identifier
+include("wikipagelinks.php");
+include("db-functions.php");
+$wikifilter = new WikiFilter();
+$db = new DB_FUNCTIONS();
 ?>
