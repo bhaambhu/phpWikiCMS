@@ -96,6 +96,23 @@ if(!empty($_GET['id'])){
     ?>
   </div>
 </div>
+
+  <!-- COSEN: Related topics section removed -->
+  <?php
+
+  // Show questions related to this topic
+  $result = $db->getQuestionsByTopic($nsid);
+  if(mysqli_num_rows($result)>0){
+    echo "<span class='button'>Questions on ".$displayName.":</span><br>";
+    while($row = mysqli_fetch_assoc($result)){
+      ?>
+      <a class='button' href='question.php?id=".$row['_id']."'><?php echo $row['question']?></a><br>
+      <?php
+    }
+  } else {
+    // Do something when no child topics are found.
+  }
+  ?>
 </body>
 </html>
 <?php
